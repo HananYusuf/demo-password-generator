@@ -12,16 +12,7 @@ function writePassword() {
 
 function generatePassword() {
   var characterLength = prompt("How many characters would you like to include in your password?")
-
-  // if(characterLength>=8 && characterLength<=128){
-  //   return "We're in"
-
-  // }else {
-  //   alert("We only accept characters from 8 to 128")
-  //   generatePassword()
-  // }
-
-
+  
 //While people give the wrong answer, keep going until they give the right answer on the length
   while(characterLength>128 || characterLength<8){
     alert("Invalid character Length");
